@@ -2,13 +2,13 @@ let logo;
 let pos;
 let vel;
 
-const imgWidth = 156;
-const imgHeight = 90;
+const imgWidth = 210;
+const imgHeight = 120;
 
 
 function setup()
 {
-  createCanvas(860, 520);
+  createCanvas(1200, 680);
   logo = loadImage("assets/logo.png");
   pos = new p5.Vector(random(0, width-imgWidth), random(0, height-imgHeight));
   vel = new p5.Vector(random(1, 3), random(1, 3));
